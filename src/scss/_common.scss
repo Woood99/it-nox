@@ -1,3 +1,35 @@
-.title {}
+.font-t1 {
+    font-family: "Manrope", sans-serif;
+    letter-spacing: 0;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 130%;
+    @include adaptiveValue("font-size", 62, 30, 1920, 576, 1);
+}
 
-.subtitle {}
+.font-t2 {
+    font-family: "Manrope", sans-serif;
+    letter-spacing: 0.15em;
+    font-weight: 800;
+    text-decoration: none;
+    line-height: 100%;
+    @include adaptiveValue("font-size", 40, 24, 1920, 576, 1);
+}
+
+.font-text {
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 150%;
+    @include adaptiveValue("font-size", 18, 16, 1920, 576, 1);
+}
+
+.font-descr {
+    font-family: "Inter", sans-serif;
+    letter-spacing: 0;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 100%;
+    @include adaptiveValue("font-size", 28, 18, 576, 576, 1);
+}
